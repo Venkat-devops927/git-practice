@@ -1,0 +1,5 @@
+#!/bin/bash
+
+FRUITS=("apple,banana,orange")
+
+echo "first fruit is ${FRUIT0}"

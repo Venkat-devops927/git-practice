@@ -1,6 +1,9 @@
 #!/bin/bash
+ 
+PERSON1=ramesh
+PERSON2=suresh
 
-echo "ramesh:: hello suresh. how are you"
-echo "suresh:: hi ramesh.iam good wt about you"
-echo "ramesh:: iam learning devops my own suresh"
-echo "suresh::oh its great ramesh keep it up"
+echo "$person1:: hello $person2. how are you"
+echo "$person2:: hi $person1.iam good wt about you"
+echo "$person1:: iam learning devops my own $person2"
+echo "$person2::oh its great $person1 keep it up"

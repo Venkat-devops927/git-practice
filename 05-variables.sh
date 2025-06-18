@@ -2,5 +2,5 @@
 
 echo "please enter your username::"
 
-read USERNAME
+read -s USERNAME # takes inputs into USERNAME variable 
 echo "your username is $USERNAME"

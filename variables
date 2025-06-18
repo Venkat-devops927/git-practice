@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "ramesh:: hello suresh. how are you"
+echo "suresh:: hi ramesh.iam good wt about you"
+echo "ramesh:: iam learning devops my own suresh"
+echo "suresh::oh its great ramesh keep it up"

@@ -4,3 +4,6 @@ echo "all variables passed to the sscript:$@"
 echo "number of variables passed to the script:$#"
 echo "script name :$0"
 echo "current working directory :$PWD"
+echo "process instance id of script excuting now : $$"
+sleep 100 &
+echo "process instance id of last background command :#!"

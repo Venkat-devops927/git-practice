@@ -6,4 +6,4 @@ echo "script name :$0"
 echo "current working directory :$PWD"
 echo "process instance id of script excuting now : $$"
 sleep 100 &
-echo "process instance id of last background command :#!"
+echo "process instance id of last background command :$!"

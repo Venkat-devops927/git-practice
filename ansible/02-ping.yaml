@@ -1,0 +1,8 @@
+---
+name: Ping the server
+hosts: web  # This should match your inventory group
+gather_facts: false
+
+tasks:
+  - name: Ping the- server
+    ansible.builtin.ping:

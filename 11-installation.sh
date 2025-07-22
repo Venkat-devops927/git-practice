@@ -19,3 +19,14 @@ then  echo "git is not installed going to install it"
 else 
     echo "git is already installed ,nothing to do it"
 fi
+
+
+dnf list insatlled nginx
+
+if [ $? -ne 0 ]
+then 
+    echo "nginx is not installed , going to install it"
+    dng install nginx -y
+else
+    echo "nginx is already installed,nothing to do it"
+fi

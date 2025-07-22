@@ -21,7 +21,7 @@ else
 fi
 
 
-dnf list insatlled nginx
+dnf list installed nginx
 
 if [ $? -ne 0 ]
 then 

@@ -17,5 +17,5 @@ if [ $? -ne 0 ]
 then  echo "git is not installed going to install it"
     dnf install git -y
 else 
-    echo"git is already installed ,nothing to do it"
+    echo "git is already installed ,nothing to do it"
 fi

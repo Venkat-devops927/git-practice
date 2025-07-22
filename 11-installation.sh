@@ -9,3 +9,6 @@ then
     echo "please run this script with root previlizes"
 
 fi
+
+
+dnf install git -y

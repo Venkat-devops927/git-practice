@@ -7,4 +7,4 @@ then
     echo "given number is : $NUMBER is graterthen 20"
 else
     echo "given number is : $NUMBER is lessthen 20"
-fi
+fi 
